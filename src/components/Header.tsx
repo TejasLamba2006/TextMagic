@@ -13,7 +13,7 @@ export function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 100 }}
-      className="border-b border-pink-100 dark:border-pink-900"
+      className="border-b border-pink-100 dark:border-pink-900 dark:bg-gray-950 transition-colors duration-200"
     >
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <motion.div
