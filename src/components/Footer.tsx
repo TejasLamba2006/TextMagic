@@ -1,10 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTwitter,
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 export function Footer() {
@@ -37,23 +33,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
-                  className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
-                >
-                  Convert
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
-                >
-                  Font List
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
+                  href="https://github.com/TejasLamba2006/TextMagic?tab=readme-ov-file"
                   className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
                 >
                   Guide
@@ -69,7 +49,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="#coming-soon"
                   className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
                 >
                   Documentation
@@ -77,7 +57,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#coming-soon"
                   className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
                 >
                   API
@@ -85,18 +65,10 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="mailto:tejas22feb@gmail.com"
                   className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
                 >
                   Support
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
-                >
-                  FAQ
                 </a>
               </li>
             </ul>
