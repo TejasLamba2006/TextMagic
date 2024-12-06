@@ -5,6 +5,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 export function Footer() {
   return (
@@ -28,7 +29,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
                 >
                   Home
@@ -107,19 +108,13 @@ export function Footer() {
             </h4>
             <div className="flex space-x-4">
               <a
-                href="#"
-                className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
-              >
-                <FontAwesomeIcon icon={faTwitter} size="lg" />
-              </a>
-              <a
-                href="#"
+                href="https://github.com/TejasLamba2006"
                 className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
               >
                 <FontAwesomeIcon icon={faGithub} size="lg" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/tejaslamba/"
                 className="text-gray-600 hover:text-pink-500 dark:text-gray-300 dark:hover:text-pink-400"
               >
                 <FontAwesomeIcon icon={faLinkedin} size="lg" />
@@ -131,6 +126,8 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-pink-100 dark:border-pink-900 text-center text-gray-600 dark:text-gray-300">
           <p>
             &copy; {new Date().getFullYear()} TextMagic. All rights reserved.
+            Made with <FontAwesomeIcon icon={faHeart} /> by{" "}
+            <a href="https://github.com/TejasLamba2006">Tejas Lamba</a>.
           </p>
         </div>
       </div>
