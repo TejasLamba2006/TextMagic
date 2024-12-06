@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&family=Indie+Flower&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-cursive: "Dancing Script", cursive;
+    --font-handwritten: "Indie Flower", cursive;
+    --font-elegant: "Playfair Display", serif;
+    --font-playful: "Comic Sans MS", "Comic Sans", cursive;
+  }
+}
+body {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-cursive {
+  font-family: var(--font-cursive);
+}
+
+.font-handwritten {
+  font-family: var(--font-handwritten);
+}
+
+.font-elegant {
+  font-family: var(--font-elegant);
+}
+
+.font-playful {
+  font-family: var(--font-playful);
+}
